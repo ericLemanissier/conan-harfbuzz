@@ -120,3 +120,4 @@ class HarfbuzzConan(ConanFile):
             self.cpp_info.system_libs.extend(["dwrite", "rpcrt4", "usp10", "gdi32", "user32"])
         if self.settings.os == "Macos":
             self.cpp_info.frameworks.extend(["CoreFoundation", "CoreGraphics", "CoreText"])
+
